@@ -1,0 +1,30 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/robotstadium/protos/RobotstadiumSoccerField.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/balls/protos/Ball.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/softbank/nao/protos/Nao.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.1674151639246999 0.48715608590535414 0.8571179095395458 0.7626646470346803
+  position -7.166879413070873 -7.0347539518054205 5.097336812506673
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+  castShadows FALSE
+}
+RobotstadiumSoccerField {
+}
+Ball {
+  translation 1.5 0 0.07
+  radius 0.07
+}
+Nao {
+  translation 0 0 0.334
+  rotation 0 0 1 0
+  controller "nao_striker"
+}
